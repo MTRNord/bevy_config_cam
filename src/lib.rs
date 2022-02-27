@@ -40,7 +40,7 @@ macro_rules! next_enum {
 #[derive(Component)]
 pub struct PlayerMove;
 #[derive(Clone, Eq, PartialEq, Debug, Hash)]
-enum PluginState {
+pub enum PluginState {
     Enabled,
     Disabled,
 }
