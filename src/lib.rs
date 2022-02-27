@@ -42,7 +42,7 @@ pub struct PlayerMove;
 #[derive(Clone, Eq, PartialEq, Debug, Hash)]
 enum PluginState {
     Enabled,
-    //Disabled,
+    Disabled,
 }
 
 #[derive(Clone, Eq, PartialEq, Debug, Hash, EnumIter)]
